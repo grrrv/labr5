@@ -1,0 +1,155 @@
+body {
+    background: #AFEEEE;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: brown;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: right;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.content-right {
+    background-color: #DDA0DD;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1cm;
+    max-width: 50%;
+    justify-self: right;
+
+}
+
+.content-left {
+    background-color: #DDA0DD;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 1cm;
+    max-width: 50%;
+    justify-self: left;
+}
+
+img {
+    height: 500px;
+}
+
+.container {
+    background-color: #6495ED;
+    padding: 10px;
+}
+
+.container-2 {
+    background-color: #6495ED;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container-3 {
+    background-color: #6495ED;
+    border: solid #8B008B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-4 {
+    border: solid black;
+    padding: 200px;
+}
+
+.block {
+    background-color: #8B008B;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-2 {
+    background-color: #8B008B;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-3 {
+    background-color: #8B008B;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+.block-4 {
+    border: solid red;
+    width: 200px;
+    height: 200px;
+}
+
+.absolute-block {
+    border: solid blue;
+    position: relative;
+    left: 110px;
+    right: 0;
+    top: -100px;
+    bottom: 0px;
+}
+
+.absolute-block-2 {
+    border: solid green;
+    position: relative;
+    left: 210px;
+    right: 0;
+    top: -200px;
+    bottom: 0px;
+}
+
+p {
+    color: blue;
+}
+
+ul {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+.kot {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    left: 93.5%;
+    right: 0;
+    top: 86%;
+    bottom: 0;
+}

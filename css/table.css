@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 15px;
+}
+th {
+    text-align: left;
+    background-color: #F4A460;
+}
+td {
+    text-align: center;
+}
+#td1 {
+    background-color: #FFC0CB;
+}
+#td2 {
+    background-color: #98FB98;
+}
+#td3 {
+    background-color: #FFE4B5;
+}
+#td4 {
+    background-color: #EE82EE;
+}
+#td5 {
+    background-color: #AFEEEE;
+}
